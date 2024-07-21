@@ -3,8 +3,8 @@
 This repository contains the code and resources for the Master's Thesis "Learning Robust Aligned Representations Across Multiple Visual Modalities in Human Action Recognition". The project introduces the Cross-Modal Video Representation Alignment (CMVRA) framework, which aligns representations from diverse visual modalities using contrastive learning techniques and builds upon video extensions of CLIP: CLIP-ViP.
 ![Project Logo](fully.png)
 
-The alignment phase as illustrated above builds upon RGB as the anchor. The RGB encoder is usuallay intalized with CLIP-VIP and remains frozen. The alignment then needs at least one more modality but supports up three additinal ones (IR, Depth and Sekelton) in its current form
-after alinment one can evalute the encoders either indviudally with a linear classifier or fuse all modalities with an attention base fusion head. Alternativly one could use the text encoder that comes with CLIP-ViP either with the weights downloadable below or finetuned for performing retrival.
+The alignment phase, as illustrated above, builds upon RGB as the anchor. The RGB encoder is usually initialized with CLIP-ViP and remains frozen. The alignment then requires at least one more modality but supports up to three additional ones (IR, Depth, and Skeleton) in its current form.
+After alignment, one can evaluate the encoders either individually with a linear classifier or fuse all modalities with an attention-based fusion head. Alternatively, one could use the text encoder that comes with CLIP-ViP, either with the weights downloadable below or fine-tuned, for performing retrieval.
 
 ## Table of Contents
 
