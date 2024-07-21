@@ -34,7 +34,7 @@ To set up the project environment:
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Cappl1/CMVRA.git
     cd your-repo-name
     ```
 
