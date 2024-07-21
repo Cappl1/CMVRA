@@ -82,7 +82,7 @@ python -m llava.serve.caption     --model-path liuhaotian/llava-v1.6-34b     --d
 
 ### Fine-tuning CLIP-ViP Models
 
-Example configurations for fine-tuning CLIP-ViP models can be found in the `/Thesis/VIP/src/configs` directory. Look for files with "retrieval" in the name.
+Example configurations for fine-tuning CLIP-ViP models can be found in the `/Thesis/VIP/src/configs` directory. Look for files with "retrieval" in the name. The corresponding dataset files can be found in all_dataset_files_copy/CLIPVIP_Datasets
 
 ### Multi-Modal Alignments
 
