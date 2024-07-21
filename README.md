@@ -55,22 +55,22 @@ This will install all the necessary dependencies for the project.
 
 ### Generate Captions Using LLaVa
 
-Clone this repository and navigate to LLaVA folder
-git clone https://github.com/haotian-liu/LLaVA.git
-cd LLaVA
-conda create -n llava python=3.10 -y
-conda activate llava
-pip install --upgrade pip  # enable PEP 660 support
-pip install -e .
-pip install -e ".[train]"
-pip install flash-attn --no-build-isolation
-git pull
-pip install -e .
-pip install flash-attn --no-build-isolation --no-cache-dir
+Clone this repository and navigate to LLaVA folder  
+git clone https://github.com/haotian-liu/LLaVA.git  
+cd LLaVA  
+conda create -n llava python=3.10 -y  
+conda activate llava  
+pip install --upgrade pip  # enable PEP 660 support  
+pip install -e .  
+pip install -e ".[train]"  
+pip install flash-attn --no-build-isolation  
+git pull  
+pip install -e .  
+pip install flash-attn --no-build-isolation --no-cache-dir  
 
-then place this file Thesis/Dataset_utils/caption_task_LLaVa/caption.pyunder /llava/serve/caption.py
+then place this file Thesis/Dataset_utils/caption_task_LLaVa/caption.pyunder /llava/serve/caption.py  
 
-and run it with this command, adjust the path to your dataset file:
+and run it with this command, adjust the path to your dataset file:  
 
 python -m llava.serve.caption     --model-path liuhaotian/llava-v1.6-34b     --data-file /home/bas06400/Thesis/CV_training_set.txt     --load-8bit --device cuda:0
 
