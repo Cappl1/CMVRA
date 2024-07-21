@@ -88,11 +88,11 @@ Weights can be downloaded here: https://hdvila.blob.core.windows.net/dataset/pre
 If the checkpoint is not avaiable anymore just ask for the weights. Just place it in your dir and set the config['e2e_weights_path']
 
 ### Pretrained Model Checkpoints
-Omnivore Repo: https://github.com/facebookresearch/omnivore/tree/main/omnivore
-Omnivore Download: https://dl.fbaipublicfiles.com/omnivore/models/swinB_In21k_checkpoint.torch
-OmniMAE Repo: https://github.com/facebookresearch/omnivore/tree/main/omnimae
-OmniMAE Download:https://dl.fbaipublicfiles.com/omnivore/omnimae_ckpts/vitb_pretrain.torch
-TAHAR Download: https://hessenbox-a10.rz.uni-frankfurt.de/getlink/fiKhHcKpHmgvnNJpka6V1Z/
+Omnivore Repo: https://github.com/facebookresearch/omnivore/tree/main/omnivore   
+Omnivore Download: https://dl.fbaipublicfiles.com/omnivore/models/swinB_In21k_checkpoint.torch  
+OmniMAE Repo: https://github.com/facebookresearch/omnivore/tree/main/omnimae  
+OmniMAE Download:https://dl.fbaipublicfiles.com/omnivore/omnimae_ckpts/vitb_pretrain.torch  
+TAHAR Download: https://hessenbox-a10.rz.uni-frankfurt.de/getlink/fiKhHcKpHmgvnNJpka6V1Z/   
 
 
 ### Selected Model Checkpoints
