@@ -1,7 +1,7 @@
 # Cross-Modal Video Representation Alignment (CMVRA) for Human Action Recognition
 
 This repository contains the code and resources for the Master's Thesis "Learning Robust Aligned Representations Across Multiple Visual Modalities in Human Action Recognition". The project introduces the Cross-Modal Video Representation Alignment (CMVRA) framework, which aligns representations from diverse visual modalities using contrastive learning techniques and builds upon video extensions of CLIP: CLIP-ViP.
-
+![Project Logo](fully.png)
 ## Table of Contents
 
 - [Overview](#overview)
